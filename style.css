@@ -1,0 +1,171 @@
+*{ 
+    margin: 0;
+    padding: 0;
+
+}
+.accueil{
+   background-image: url(img.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: right;
+ height: 100vh;
+ 
+
+}
+
+.logo{
+display: flex;
+justify-content: center;
+
+}
+.nom{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    color: aliceblue;
+    font-family: Arial, sans-serif;
+   font-size: 16px;
+   text-shadow: 1px 1px 5px rgb(56, 55, 55);
+}
+
+header{
+    margin-top: 50% ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.contenaire{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 300px;
+    background-color: rgb(236, 174, 1);
+    border-radius: 20px;
+    border: solid rgb(252, 252, 252) 5px;
+}
+.texte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+color: aliceblue;
+font-size: 35px;
+text-align: center;
+margin: 5px;
+padding: 2px;
+padding-top: 10px;
+font-weight: 500;
+
+
+}
+   
+
+
+.btn a{
+   
+    font-weight: 700;
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(236, 174, 1);
+    border-radius: 10px;
+    border: solid  rgb(236, 174, 1) 5px ;
+   box-shadow: 3px 3px 30px;
+}
+
+
+/* style pour les details */
+
+
+.contener{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    font-size: 18px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.ordre{
+    padding: 10px;
+    background-color:  rgb(236, 174, 1) ;
+    border-radius: 5px;
+}
+
+
+
+
+.texte-c{
+    margin: 5px;
+    padding: 10px;
+    background-color:  rgb(131, 96, 0);
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+
+
+.lien{
+    display: flex;
+    justify-content: space-between; 
+    margin: 30px;
+    text-align: center;
+
+}
+
+.clic a{
+    text-decoration: none;
+    margin: 20px;
+
+}
+
+a b{
+    padding: 10px;
+background-color: rgb(131, 96, 0);
+color: aliceblue;
+border-radius: 5px;
+box-shadow: 1px 1px 5px black;
+
+}
+
+.contener-depos{
+
+    display: flex;
+    justify-content: center;
+     align-content: center;
+}
+
+.nita{
+   display: inline;
+   margin: 0 50%;
+     text-align: center;
+      font-size: 25px;
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+
+}
+
+.numero{
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+
+span{
+    background-color:rgb(230, 103, 0) ;
+ color: rgb(252, 252, 252);
+   
+}
