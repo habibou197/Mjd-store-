@@ -16,20 +16,9 @@ body {
     background-position: right;
     height: 100vh;
     background-attachment: fixed;
+
 }
 
-.loader {
-    border: 16px solid #f3f3f3;
-    border-top: 16px solid rgb(236, 174, 1);
-    border-radius: 50%;
-    width: 80px;
-    height: 80px;
-    animation: spin 2s linear infinite;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
 @keyframes spin {
     0% { transform: rotate(0deg); }
@@ -98,7 +87,7 @@ header {
 
 .btn a:hover {
     transform: scale(1.1);
-    box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.5);
+   
 }
 
 .testimonials {
@@ -248,7 +237,7 @@ li{
 
 .lien{
     display: flex;
-    justify-content: space-between; 
+    justify-content: center; 
     margin: 30px;
     text-align: center;
 
@@ -261,11 +250,21 @@ li{
 }
 
 a b{
+  
     padding: 10px;
 background-color: rgb(131, 96, 0);
 color: aliceblue;
 border-radius: 5px;
-box-shadow: 1px 1px 5px black;
+box-shadow: 1px 1px 5px rgb(61, 60, 60);
+}
+
+
+
+a b:hover{
+  
+background-color: white;
+color:  rgb(131, 96, 0);
+
 }
 
 
@@ -301,4 +300,65 @@ span{
     background-color:rgb(230, 103, 0) ;
  color: rgb(252, 252, 252);
    
+}
+
+/* catalogue */
+
+
+
+
+
+
+
+.catalogue {
+    padding: 20px;
+    text-align: center;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.article {
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid  rgb(236, 174, 1);
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.article img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.article h3 {
+    margin: 10px 0;
+}
+
+.article a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: rgb(236, 174, 1);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+
+.nom1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(236, 174, 1);
+    font-size: 20px;
+ 
 }
